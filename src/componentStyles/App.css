@@ -2,3 +2,22 @@
   font-size: 20px;
   text-align: center;
 }
+
+.landing-background{
+  background: url("https://ioss.in/wp-content/uploads/2018/04/computer.jpg") no-repeat fixed center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 200px;
+  color: white;
+}
+
+.main-body{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

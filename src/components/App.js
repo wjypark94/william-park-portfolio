@@ -7,16 +7,19 @@ import Work from './Work';
 class App extends Component {
   render() {
     return (
-      <div className="header-portfolio">
+      <section className="App">
       <NavBar/>
-        <header>
-          <h1 className="header-h1">
-            William Park Portfolio
-          </h1>
-        </header>
-        <Work/>
-        <About/>
-      </div>
+        <section className="landing-background">
+          <div className="landing-title-cont">
+              <h1>William Park</h1>
+              <p>FullStack Web Developer, <i> Los Angeles, CA </i></p>
+          </div>
+          </section>
+        <section className="main-body">
+          <Work/>
+          <About/>
+        </section>
+      </section>
     );
   }
 }
