@@ -12,7 +12,7 @@ class Work extends Component{
 
                 <div className="project-content">
                     <div className="project-image-content">
-                        <img className="project-img" src={Project1} alt="fridgeful"/>
+                        <img className="project-img" onClick={() => {window.location.href = "https://fridgeful.netlify.com"}} src={Project1} alt="fridgeful"/>
                     </div>
                     <div className="project-description-content">
                         <h3>Fridgeful</h3>
@@ -23,7 +23,7 @@ class Work extends Component{
 
                 <div className="project-content content-reverse">
                     <div className="project-image-content">
-                        <img className="project-img" src={Project2} alt="brewtrackr"/>
+                        <img className="project-img" onClick={()=> {window.location.href="https://brewtrackr.herokuapp.com"}}src={Project2} alt="brewtrackr"/>
                     </div>
                     <div className="project-description-content">
                         <h3> BrewTrackr </h3>
@@ -33,7 +33,7 @@ class Work extends Component{
 
                 <div className="project-content">
                     <div className="project-image-content">
-                    <img className="project-img" src={Project3} alt="trekcheck"/>
+                    <img className="project-img" onClick={()=>{window.location.href="https://wjypark94.github.io/trek-check/"}}src={Project3} alt="trekcheck"/>
                     </div>
                     <div className="project-description-content">
                         <h3> TreckCheck </h3>

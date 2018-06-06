@@ -3,6 +3,7 @@ import '../componentStyles/App.css';
 import About from './About';
 import NavBar from './NavBar';
 import Work from './Work';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
         <section className="main-body">
           <Work/>
           <About/>
+          <Contact/>
+
         </section>
       </section>
     );

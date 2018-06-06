@@ -6,7 +6,7 @@
 }
 
 .project-img{
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@
 .project-content{
     display: flex;
     flex-direction: row;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .content-reverse{

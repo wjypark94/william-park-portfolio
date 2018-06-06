@@ -5,8 +5,10 @@ import EmailIcon from '../images/email-icon.png';
 import '../componentStyles/NavBar.css';
 import { slide as Menu } from 'react-burger-menu';
 
+
 class NavBar extends Component {
     render(){
+  
         return(
             <section className="Nav">
             <Menu width={'100%'}>
