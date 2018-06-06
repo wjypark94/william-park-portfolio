@@ -1,8 +1,37 @@
 .about-bio-content{
-    text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px 0;
 }
 
 .about-img-content{
-    text-align: center;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 0;
+}
+
+.about{
+    width: 100%;
+}
+
+
+.about-content {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.profile-img{
+    height: 250px;
+}
+
+p {
+    font-weight: 900;
+ 
 }

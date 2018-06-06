@@ -1,0 +1,35 @@
+.project-img-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.project-description-content{
+    color: black;
+    padding: 20px 0;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+}
+
+.content-reverse{
+    flex-direction: row-reverse;
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 50px;
+    margin: 0 auto;
+}

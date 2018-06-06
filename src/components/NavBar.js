@@ -3,18 +3,18 @@ import GithubIcon from '../images/github-icon.png';
 import LinkedinIcon from '../images/linkedin-icon.png';
 import EmailIcon from '../images/email-icon.png';
 import '../componentStyles/NavBar.css';
+import { slide as Menu } from 'react-burger-menu';
 
 class NavBar extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            showNav: false,
-        }
-    }
-
     render(){
         return(
             <section className="Nav">
+            <Menu width={'100%'}>
+                <a id="about" className="menu-item" href="/about">About</a>
+                <a id="work" className="menu-item" href="/about">Work</a>
+                <a id="contact" className="menu-item" href="/contact">Contact</a>
+                <a id="resume" className="menu-item" href="/resume">Resume</a>
+            </Menu>
             <div className="header-nav">
                 <nav className="nav-menu">
                     <a id="about" className="nav-item" href="/about">About</a>

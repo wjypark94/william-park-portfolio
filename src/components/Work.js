@@ -1,38 +1,42 @@
 import React, {Component} from 'react';
+import Project1 from '../images/project-1.png';
+import Project2 from '../images/project-2.png';
+import Project3 from '../images/project-3.png';
+import '../componentStyles/Work.css';
 
 class Work extends Component{
 
     render(){
         return(
-            <div>
+            <div id="work-content" className="work-content">
 
                 <div className="project-content">
                     <div className="project-image-content">
-                        <h1>Image goes here</h1>
+                        <img className="project-img" src={Project1} alt="fridgeful"/>
                     </div>
-                    <div className="project-decsription-content">
-                        <h3>Project 1</h3>
+                    <div className="project-description-content">
+                        <h3>Fridgeful</h3>
                         <p>Test paragraph. A lot of time and effort was put into this project</p>
                     </div>
                 </div>
 
 
-                <div className="project-content conent-reverse">
+                <div className="project-content content-reverse">
                     <div className="project-image-content">
-                        <h1> Image goes here </h1>
+                        <img className="project-img" src={Project2} alt="brewtrackr"/>
                     </div>
-                    <div className="project-decription-content">
-                        <h3> Project 2 </h3>
+                    <div className="project-description-content">
+                        <h3> BrewTrackr </h3>
                         <p>A lot of time and effort was put into this Project 2</p>
                     </div>
                 </div>
 
                 <div className="project-content">
                     <div className="project-image-content">
-                        <h1>Image goes here </h1>
+                    <img className="project-img" src={Project3} alt="trekcheck"/>
                     </div>
                     <div className="project-description-content">
-                        <h3> Project 3 </h3>
+                        <h3> TreckCheck </h3>
                         <p> A lot of time and effort was put into Project 3</p>
                     </div>
                 </div>
