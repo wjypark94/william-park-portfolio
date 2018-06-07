@@ -8,7 +8,7 @@ html {
 }
 
 .landing-background{
-  background: url("https://ioss.in/wp-content/uploads/2018/04/computer.jpg") no-repeat fixed center;
+  background-color: black;
   background-size: cover;
   padding: 200px;
   background-attachment: fixed;
