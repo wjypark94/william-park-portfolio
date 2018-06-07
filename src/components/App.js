@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Work from './Work';
 import Contact from './Contact';
 
+
 class App extends Component {
   render() {
     return (

@@ -8,7 +8,7 @@ class Work extends Component{
 
     render(){
         return(
-            <div id="work-content" className="work-content">
+            <div id="work" className="work-content">
 
                 <div className="project-content">
                     <div className="project-image-content">

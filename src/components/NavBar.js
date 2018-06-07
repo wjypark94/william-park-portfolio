@@ -3,26 +3,43 @@ import GithubIcon from '../images/github-icon.png';
 import LinkedinIcon from '../images/linkedin-icon.png';
 import EmailIcon from '../images/email-icon.png';
 import '../componentStyles/NavBar.css';
-import { slide as Menu } from 'react-burger-menu';
+import Scroll from 'react-scroll';
+import { scroller } from 'react-scroll';
+
 
 
 class NavBar extends Component {
+
+
+    handleToggle = () => this.setState({open: !this.state.open})
+
     render(){
-  
+        let Link = Scroll.Link;
         return(
             <section className="Nav">
-            <Menu width={'100%'}>
-                <a id="about" className="menu-item" href="/about">About</a>
-                <a id="work" className="menu-item" href="/about">Work</a>
-                <a id="contact" className="menu-item" href="/contact">Contact</a>
-                <a id="resume" className="menu-item" href="/resume">Resume</a>
-            </Menu>
             <div className="header-nav">
                 <nav className="nav-menu">
-                    <a id="about" className="nav-item" href="/about">About</a>
-                    <a id="work" className="nav-item" href="/about">Work</a>
-                    <a id="contact" className="nav-item" href="/contact">Contact</a>
-                    <a id="resume" className="nav-item" href="/resume">Resume</a>
+                <Link to="work"
+                            offset={-100}
+                            spy={true}
+                            smooth={true}
+                            duration={700}>
+                            Work 
+                        </Link>
+                        <Link to="about"
+                            offset={-100}
+                            spy={true}
+                            smooth={true}
+                            duration={700}>
+                            About
+                        </Link>
+                        <Link to="contact"
+                            offset={-100}
+                            spy={true}
+                            smooth={true}
+                            duration={700}>
+                            Contact
+                        </Link>
                 </nav>
 
                 <div className="social-links">
