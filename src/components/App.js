@@ -15,7 +15,7 @@ class App extends Component {
           <ParticlesEffect/>
           <div className="header">
               <h2 className="site-title">William Park</h2>
-              <h1 className="site-description">Fullstack Web Developer</h1>
+              <h1 className="site-description">Full Stack Web Developer</h1>
           </div>
           </section>
         <section className="main-body">
