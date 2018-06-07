@@ -4,9 +4,6 @@ import LinkedinIcon from '../images/linkedin-icon.png';
 import EmailIcon from '../images/email-icon.png';
 import '../componentStyles/NavBar.css';
 import Scroll from 'react-scroll';
-import { scroller } from 'react-scroll';
-
-
 
 class NavBar extends Component {
 
