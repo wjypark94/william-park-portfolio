@@ -2,21 +2,19 @@ html {
   box-sizing: border-box;
 }
 
-.header-h1{
-  font-size: 20px;
-  text-align: center;
+.landing-p{
+  display: inline-block;
+  position: relative;
+  top: 1.4rem;
 }
 
 .landing-background{
   background-color: black;
   background-size: cover;
   padding: 200px;
-  background-attachment: fixed;
   background-position: center top;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  text-align: center;
 
 }
 
@@ -24,4 +22,5 @@ html {
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: absolute;
 }
