@@ -14,15 +14,7 @@
 
 }
 
-.social-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-width: 100px;
-    justify-content: space-between;
-    position: relative;
-    margin-left: 630px;
-}
+
   
 a {
     box-sizing: content-box;
@@ -46,7 +38,7 @@ a {
     position: relative;
     margin-left: 30px;
   }
-
+  
   a {
       box-sizing: content-box;
       padding-bottom: 5px;
@@ -58,4 +50,18 @@ a {
       height: 60px;
       padding: 0;
       flex-direction: row;
+  }
+
+  .social-links{
+      display: inline-block;
+      align-items: center;
+      padding-left: 90px;
+      position: relative;
+      justify-content: space-between;
+      margin: auto;
+      margin-right: 50px;
+  }
+
+  .social-icon{
+      padding: 10px;
   }
