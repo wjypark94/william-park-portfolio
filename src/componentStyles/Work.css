@@ -16,7 +16,7 @@
     display: inline-block;
 }
 
-.project-description-content{
+.project-tools-content{
     color: black;
     padding: 20px 0;
 }
@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: row;
     padding: 30px 0;
+    padding-bottom: 100px;
 }
 
 .content-reverse{
@@ -43,13 +44,29 @@
 
 .work-header{
     font-size: 35px;
-    font-family: 'Roboto Slab';
+    font-family: 'Freight Display Pro';
     text-decoration: underline;
+}
+
+.skills-header{
+    font-family: 'Freight Display Pro';
+}
+
+.work-header2{
+    font-family: 'Freight Display Pro';
 }
 
 .project-title{
     text-decoration: underline;
-    font-size: 20px;
-    margin-right: 100px;
-    text-align: center;
+    font-size: 30px;
+    margin-right: 200px;
+    font-family: 'Freight Display Pro';
+}
+
+.work-header2{
+    padding-bottom: 100px;
+}
+
+.project-description{
+    font-family: 'Freight Display Pro';
 }

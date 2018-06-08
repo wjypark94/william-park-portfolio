@@ -10,7 +10,6 @@ class About extends Component {
              
                     <h2 className="about-title">About</h2>
                     <p>I'm a web developer with a knack for Full-stack development based in Los Angeles, California. Originally coming from a Pre-Health background, I later realized that programming is my true passion. With a strong grounding in both front and back end development, I am currently focusing on development with React and Node/Express.</p>
-
                     <p className="ListHeader"> Skills </p>
                     <p>React, Redux, Node, Express, Mongo, Mongoose, JavaScript, Jquery, HTML, CSS</p>
 
