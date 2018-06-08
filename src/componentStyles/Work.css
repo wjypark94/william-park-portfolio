@@ -6,8 +6,14 @@
 }
 
 .project-img{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
+    padding-right: 10px;
+}
+
+.iphone-img{
+    width: 18%;
+    display: inline-block;
 }
 
 .project-description-content{
@@ -34,3 +40,13 @@
     margin: 0 auto;
 }
 
+.work-header{
+    font-size: 35px;
+    font-family: 'Roboto Slab';
+    text-decoration: underline;
+}
+
+.project-title{
+    text-decoration: underline;
+    font-size: 20px;
+}
