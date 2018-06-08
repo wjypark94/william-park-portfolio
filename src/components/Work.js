@@ -13,6 +13,7 @@ class Work extends Component{
         return(
             <div id="work" className="work-content">
                 <h1 className="work-header">Recent Work</h1>
+                <h3> I use modern technologies to build web applications and websites that look great on the browser or on the phone. The mobile compatibility is one of my main concerns so I'm always focused on making my applications work well on mobile devices.</h3>
                 <div className="project-content">
                     <div className="project-image-content">
                         <img className="project-img" onClick={() => {window.location.href = "https://fridgeful.netlify.com"}} src={Desktop1} alt="fridgeful"/>
@@ -20,7 +21,7 @@ class Work extends Component{
                     </div>
                     <div className="project-description-content">
                         <h3 className="project-title">Fridgeful</h3>
-                        <p>Test paragraph. A lot of time and effort was put into this project</p>
+                        <p>Helping users decrease the amount of food waste in the world, Fridgeful allows users to search recipes based on the ingredients in their fridge. Users are able to write comments and save recipes into their own personal database.</p>
                     </div>
                 </div>
 
@@ -32,7 +33,7 @@ class Work extends Component{
                     </div>
                     <div className="project-description-content">
                         <h3 className="project-title"> BrewTrackr </h3>
-                        <p>A lot of time and effort was put into this Project 2</p>
+                        <p>BrewTrackr allows users to search for coffee or breweries in any city. Users are able to write their own reviews and save their search results into their own list. Keep track of all your favorite coffee and breweries with BrewTrackr.</p>
                     </div>
                 </div>
 
@@ -43,7 +44,7 @@ class Work extends Component{
                     </div>
                     <div className="project-description-content">
                         <h3 className="project-title"> TreckCheck </h3>
-                        <p> A lot of time and effort was put into Project 3</p>
+                        <p>TrekCheck is a responsive web application that allows users to look up both hiking and weather data in a specified location with one quick search. Check the current weather and find the best hiking trails nearby with TrekCheck.</p>
                     </div>
                 </div>
 
