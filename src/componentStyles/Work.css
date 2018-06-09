@@ -76,8 +76,8 @@
 }
 
 .app-title{
-    font-size: 30px;
-    font-family: 'Roboto Slab';
+    font-size: 40px;
+    font-family: 'Freight Display Pro';
     padding-bottom: 10px;
 }
 
@@ -87,8 +87,8 @@
 }
 
 .hr-app{
-    width: 20%;
-    margin-top: -20px;
+    width: 30%;
+    margin-top: -10px;
 }
 
 .code-button{
@@ -122,4 +122,15 @@
 
 .app-buttons{
     margin-top: 40px;
+}
+
+.app-link{
+    color: #2e7de6;
+    font-size: 1rem;
+    margin-top: -40px;
+    font-family: 'Roboto Slab'
+}
+
+a{
+    text-decoration: none;
 }

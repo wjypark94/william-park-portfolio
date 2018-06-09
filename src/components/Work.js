@@ -18,6 +18,9 @@ class Work extends Component{
 
                 <div className="app-title">
                     <h1>Fridgeful</h1>
+                    <a href="https://fridgeful.netlify.com">
+                        <h5 className="app-link">fridgeful.netlify.com</h5>
+                    </a>
                     <hr className="hr-app"></hr>
                 </div>
                 <div className="project-content">
@@ -49,6 +52,9 @@ class Work extends Component{
             
                 <div className="app-title">
                     <h1>BrewTrackr </h1>
+                    <a href="https://brewtrackr.herokuapp.com">
+                        <h5 className="app-link">brewtrackr.herokuapp.com</h5>
+                    </a>
                     <hr className="hr-app"></hr>
                 </div>
                 <div className="project-content content-reverse">
@@ -78,6 +84,9 @@ class Work extends Component{
 
                 <div className="app-title">
                     <h1>TrekCheck</h1>
+                    <a href="https://wjypark94.github.io/trek-check/">
+                        <h5 className="app-link">wjypark94.github.io/trek-check/</h5>
+                    </a>
                     <hr className="hr-app"></hr>
                 </div>
                 <div className="project-content">
