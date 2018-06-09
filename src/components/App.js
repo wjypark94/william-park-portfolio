@@ -14,7 +14,7 @@ class App extends Component {
         <section className="landing-background">
           <ParticlesEffect/>
           <div className="header">
-              <h2 className="site-title">William Park</h2>
+              <h2 className="site-title">Will Park</h2>
               <h1 className="site-description">Full Stack Web Developer</h1>
           </div>
           </section>
