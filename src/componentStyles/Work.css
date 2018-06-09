@@ -90,3 +90,36 @@
     width: 20%;
     margin-top: -20px;
 }
+
+.code-button{
+    border: solid 2px #ffaa97;
+    border-radius: 3px;
+    color: rgba(80, 75, 75, 0.986);
+    background-color: #edededbd;
+    font-size: 1rem;
+    padding: 5px 20px;
+}
+
+.live-button{
+    border: solid 2px #ffaa97;
+    border-radius: 3px;
+    color: rgba(80, 75, 75, 0.986);
+    background-color: #edededbd;
+    margin-right: 10px;
+    font-size: 1rem;
+    padding: 5px 20px;
+}
+
+.code-button:hover{
+    cursor: pointer;
+    border-color: #5aa2ff;
+}
+
+.live-button:hover{
+    border-color: #5aa2ff;
+    cursor: pointer;
+}
+
+.app-buttons{
+    margin-top: 40px;
+}

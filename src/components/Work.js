@@ -26,10 +26,20 @@ class Work extends Component{
                         <img className="iphone-img" src={iPhone1} alt="iphone"/>
                     </div>
                     <div className="project-description-content">
+
                         <h2>Stack</h2>
                         <h5>React | Redux | HTML5 | CSS3 | JavaScript | ES6 | Node.js | Express.js | Mongo DB | Mongoose | Edamam API</h5>
                         <h2> Tools </h2>
                         <h5> Mocha.js | Chai.js | Enzyme | Travis CI | Netlify | Heroku | Responsive Design | Git | Github</h5>
+                        <div className="app-buttons">
+                            <a href="https://fridgeful.netlify.com">
+                                <button type="button" className="live-button">LIVE DEMO</button> 
+                            </a>
+                            <a href="https://github.com/wjypark94/fridgeful-client">
+                                <button type="button" className="code-button">CODE</button>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
                 <div className="app-description">
@@ -51,6 +61,14 @@ class Work extends Component{
                         <h5>JavaScript | jQuery | HTML | CSS | Bootstrap | Node.js | Express.js | Mongo DB | Mongoose | Foursquare API</h5>
                         <h2> Tools </h2>
                         <h5> Mocha.js | Chai.js | Enzyme | Travis CI | Heroku | Responsive Design | Git | Github</h5>
+                        <div className="app-buttons">
+                            <a href="https://brewtrackr.herokuapp.com">
+                                <button className="live-button">LIVE DEMO </button>
+                            </a>
+                            <a href="https://github.com/wjypark94/brew-trackr">
+                                <button className="code-button">CODE </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="app-description">
@@ -70,6 +88,14 @@ class Work extends Component{
                     <div className="project-description-content">
                         <h2>Stack</h2>
                         <h5>JavaScript | jQuery | HTML | CSS | OpenWeatherMap API | Foursquare API | GoogleMaps </h5>
+                        <div className="app-buttons">
+                            <a href="https://wjypark94.github.io/trek-check/">
+                                <button className="live-button">LIVE DEMO</button>
+                            </a>
+                            <a href="https://github.com/wjypark94/trek-check">
+                                <button className="code-button">CODE</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="app-description">
