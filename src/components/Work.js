@@ -13,6 +13,7 @@ class Work extends Component{
         return(
             <div id="work" className="work-content">
                 <h1 className="work-header">Recent Work</h1>
+                <hr className="hr-header"></hr>
                 <h2 className="skills-header">Skills</h2>
                 <h3 className="work-header2"> React | Redux | Node.js | Express.js | mongo DB | Mongoose | HTML | CSS | JavaScript | ES6 | jQuery | Passport.js | bcrypt.js | Mocha.js | Chai.js | Travis.CI | Heroku | Git | GitHub | Responsive Design | API integration </h3>
 
