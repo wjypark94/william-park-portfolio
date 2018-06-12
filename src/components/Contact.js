@@ -12,8 +12,10 @@ class Contact extends Component {
                     <h1 className="connect-header"> Let's connect! </h1>
                     <h3> I am open to relocating or potentially working remotely. If you'd like to go over an opportunity with me, feel free to reach out via email:</h3>
                     <a href="mailto:wjypark94@gmail.com"><h4>wjypark94@gmail.com</h4></a>
-                    <button className="resume-button">Resume</button>
                 </div>
+                <a class="btn-primary">
+                    <i class="fa fa-download"></i> MY RESUME
+                </a>
             </div>
         )
     }

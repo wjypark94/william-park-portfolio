@@ -1,7 +1,7 @@
 .contact{
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 120px;
+    padding-bottom: 110px;
 }
 
 .contact-header{
@@ -12,6 +12,7 @@
 .contact-content{
     font-family: 'Roboto Slab';
     font-size: 15px;
+    padding-bottom: 20px;
 }
 
 .connect-header{
@@ -19,8 +20,19 @@
     font-size: 25px;
 }
 
-.resume-button{
-    width: 200px;
-    padding: 10px;
-    font-size: 20px;
+.btn-primary {
+    font-weight: 600;
+    text-transform: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto Slab';
+    background-color: #d4812f;
+    border-color: #f05f40;
+    padding: 8px 20px;
+  }
+
+.btn-primary:hover,
+.btn-primary:active {
+  color: #fff;
+  background-color: #ee4b28;
 }
