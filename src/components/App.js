@@ -4,6 +4,7 @@ import About from './About';
 import NavBar from './NavBar';
 import Work from './Work';
 import Contact from './Contact';
+import Footer from './Footer';
 import ParticlesEffect from './Particles';
 
 class App extends Component {
@@ -36,7 +37,7 @@ class App extends Component {
           <About/>
           <Work/>
           <Contact/>
-
+          <Footer/>
         </section>
       </section>
     );

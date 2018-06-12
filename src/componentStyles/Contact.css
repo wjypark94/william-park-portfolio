@@ -1,0 +1,26 @@
+.contact{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 120px;
+}
+
+.contact-header{
+    font-size: 40px;
+    font-family: 'Roboto Slab';
+}
+
+.contact-content{
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+}
+
+.connect-header{
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+
+.resume-button{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+}

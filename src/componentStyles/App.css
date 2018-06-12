@@ -52,6 +52,12 @@ html {
 	margin-right: 7px; 
   line-height: 38px;
   color: white;
+  
+}
+
+.icon:hover{
+  color: black;
+  background-color: white;
 }
 
 .arrow-wrapper{
