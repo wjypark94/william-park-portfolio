@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import GithubIcon from '../images/github-icon.png';
-import LinkedinIcon from '../images/linkedin-icon.png';
-import EmailIcon from '../images/email-icon.png';
+//import GithubIcon from '../images/github-icon.png';
+//import LinkedinIcon from '../images/linkedin-icon.png';
+//import EmailIcon from '../images/email-icon.png';
 import '../componentStyles/NavBar.css';
 import Scroll from 'react-scroll';
 
@@ -39,7 +39,16 @@ class NavBar extends Component {
                         </Link>
                 </nav>
 
-                <div className="social-links">
+         
+            </div>
+            </section>
+        )
+    }
+}
+
+export default NavBar;
+
+      /* <div className="social-links">
                     <a className="social-icon" href="https://github.com/wjypark94" target="_blank" rel="noopener noreferrer">
                         <img src={GithubIcon} alt="github-icon"/>
                     </a>
@@ -53,10 +62,4 @@ class NavBar extends Component {
                     </a>
                     
                 </div>
-            </div>
-            </section>
-        )
-    }
-}
-
-export default NavBar;
+                */

@@ -9,13 +9,13 @@
     background-color: black;
 }
 
-.social-icon img {
+/*.social-icon img {
     height: 20px;
 
 }
 
+*/
 
-  
 a {
     box-sizing: content-box;
     padding-bottom: 5px;
@@ -52,7 +52,7 @@ a {
       padding: 0;
       flex-direction: row;
   }
-
+/*
   .social-links{
       display: inline-block;
       align-items: center;
@@ -66,3 +66,4 @@ a {
   .social-icon{
       padding: 10px;
   }
+  */

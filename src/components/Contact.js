@@ -13,8 +13,8 @@ class Contact extends Component {
                     <h3> I am open to relocating or potentially working remotely. If you'd like to go over an opportunity with me, feel free to reach out via email:</h3>
                     <a href="mailto:wjypark94@gmail.com"><h4>wjypark94@gmail.com</h4></a>
                 </div>
-                <a class="btn-primary">
-                    <i class="fa fa-download"></i> MY RESUME
+                <a className="btn-primary">
+                    <i className="fa fa-download"></i> MY RESUME
                 </a>
             </div>
         )

@@ -17,8 +17,8 @@ class Footer extends Component{
                     </a>
                 </div>
 
-                <p class="copyright">
-                    <i class="copyright-icon fa fa-copyright"></i>
+                <p className="copyright">
+                    <i className="copyright-icon fa fa-copyright"></i>
                     2018 William Park 
                 </p>
             </div>
