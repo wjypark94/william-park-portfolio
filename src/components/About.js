@@ -17,6 +17,7 @@ class About extends Component {
                     <img className="profile-img" src={Profile} alt="profile"></img>
                 </div>
             </div>
+            <hr className="hr-about"></hr>
             </div>
         )
     }

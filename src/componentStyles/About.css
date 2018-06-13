@@ -20,6 +20,7 @@
 
 .about{
     width: 100%;
+    padding-bottom: 100px;
 }
 
 
@@ -58,6 +59,11 @@
     font-size: 18px;
 }
 
+.hr-about{
+    width: 40%;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
 
 
 @media screen and (min-width: 630px) {
@@ -66,7 +72,7 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        padding-bottom: 100px;
+        padding-bottom: 160px;
         margin: auto;
     }
 }

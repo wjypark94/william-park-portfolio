@@ -5,8 +5,48 @@ class Skills extends Component{
     render(){
         return(
             <div className="skills-container">
-                <h3 className="skills-header"> Technical Skills </h3>
-                <p className="skills-paragraph">React | Redux | Node.js | Express.js | Mongo DB | Mongoose | HTML | CSS | JavaScript | ES6 | jQuery | Passport.js | bcrypt.js | Mocha.js | Chai.js | Travis.CI | Heroku | Netlify |Git | GitHub | Responsive Design | API integration </p>
+                <h3 className="tech-header"> Technical Skills </h3>
+                <div className="col-4 description">
+                    <h3 className="skills-header"> Front End</h3>
+                    <ul>
+                        <li> JavaScript </li>
+                        <li> ES6 </li>
+                        <li> React </li>
+                        <li> Redux </li>
+                        <li> jQuery </li>
+                        <li> HTML </li>
+                        <li> CSS3 </li>
+                        <li> Responsive Design </li>
+                    </ul>
+                </div>    
+                <div className="col-4 description">
+                    <h3 className="skills-header"> Back End/Server </h3>
+                    <ul>
+                        <li> Node </li>
+                        <li> Express </li>
+                        <li> MongoDB </li>
+                        <li> Mongoose </li>
+                        <li> PassportJS </li>
+                        <li> Bcrypt.js </li>
+                        <li> NPM </li>
+                        <li> Webpack </li>
+                    </ul>
+                </div>
+                <div className="col-4 description">
+                    <h3 className="skills-header">Tools/Testing</h3>
+                    <ul>
+                        <li>Mocha</li>
+                        <li>Chai</li>
+                        <li> Travis CI </li>
+                        <li> Enzyme </li>
+                        <li> Jest </li>
+                        <li> Heroku </li>
+                        <li> Netlify </li>
+                        <li> Git </li>
+                        <li> GitHub </li>
+                    </ul>
+                </div>
+                <hr className="hr-skills"></hr>
             </div>
         )
     }
