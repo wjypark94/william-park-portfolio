@@ -9,16 +9,13 @@ class About extends Component {
             <div id="about" className="about">
                 <div className="about-content">
                     <h2 className="about-title">About Me</h2>
+                    <h3 className="about-intro1">William Park</h3>
+                    <h3 className="about-intro2"> Web Developer from Los Angeles, CA</h3>
                     <p className="about-paragraph">I'm a web developer with a knack for Full-stack development based in Los Angeles, California. Originally coming from a Pre-Health background, I later realized that programming is my true passion. With a strong grounding in both front and back end development, I am currently focusing on development with React and Node/Express.</p>
-                    <p className="ListHeader"> Skills </p>
-                    <p className="about-paragraph">React | Redux | Node.js | Express.js | Mongo DB | Mongoose | HTML | CSS | JavaScript | ES6 | jQuery | Passport.js | bcrypt.js | Mocha.js | Chai.js | Travis.CI | Heroku | Netlify | Git | GitHub | Responsive Design | API integration </p>
                 </div>
                 <div className="about-img-content">
                     <img className="profile-img" src={Profile} alt="profile"></img>
                 </div>
-            </div>
-            <div className="about-arrow">
-                    <i className="fa fa-chevron-down smooth-container" aria-hidden="true"></i>
             </div>
             </div>
         )
