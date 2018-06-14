@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Fade from 'react-reveal/Fade';
 import '../componentStyles/Contact.css';
+import Resume from '../files/resume.pdf';
 
 class Contact extends Component {
     
@@ -17,8 +18,8 @@ class Contact extends Component {
                         <a href="mailto:wjypark94@gmail.com"><h4>wjypark94@gmail.com</h4></a>
                     </Fade>
                 </div>
-                <a className="btn-primary">
-                    <i className="fa fa-download"></i> MY RESUME
+                <a className="btn-primary" href={Resume}>
+                    <i className="fa fa-download"> </i> MY RESUME
                 </a>
             </div>
         )
