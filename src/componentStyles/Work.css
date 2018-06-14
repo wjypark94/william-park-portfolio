@@ -5,14 +5,9 @@
     justify-content: center;
 }
 
-.project-img{
-    max-width: 55%;
-    margin: 0 auto;
-    padding-right: 10px;
-}
 
 .iphone-img{
-    width: 17%;
+    width: 15%;
     display: inline-block;
 }
 
@@ -52,6 +47,7 @@
 
 .project-description-content{
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .app-description{
@@ -69,7 +65,7 @@
 }
 
 .hr-description{
-    width: 55%;
+    width: 50%;
     margin-top: 60px;
 }
 
@@ -122,4 +118,48 @@
 
 a{
     text-decoration: none;
+}
+
+.project-img{
+    max-width: 45%;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 950px){
+    .project-img{
+        max-width: 60%;
+        margin: 0 auto;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .project-img{
+        max-width: 70%;
+        margin: 0 auto;
+        padding-right: 10px;
+        z-index: 1;
+    }
+    .iphone-img{
+        width: 20%;
+        display: inline-block;
+        z-index: 2;
+    }
+}
+
+
+@media screen and (max-width: 530px){
+    .project-img{
+        max-width: 70%;
+        margin: 0 auto;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 434px){
+    .iphone-img{
+        width: 20%;
+        display: inline-block;
+    }
 }
