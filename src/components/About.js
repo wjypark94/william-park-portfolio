@@ -10,8 +10,8 @@ class About extends Component {
                 <div className="about-content">
                     <h2 className="about-title">About Me</h2>
                     <h3 className="about-intro1">William Park</h3>
-                    <h3 className="about-intro2"> Web Developer from Los Angeles, CA</h3>
-                    <p className="about-paragraph">I'm a web developer with a knack for Full-stack development based in Los Angeles, California. Originally coming from a Pre-Health background, I later realized that programming is my true passion. With a strong grounding in both front and back end development, I am currently focusing on development with React and Node/Express.</p>
+                    <h3 className="about-intro2"> Full Stack Web Developer from Los Angeles, CA</h3>
+                    <p className="about-paragraph">I'm a  web developer with a knack for Full-stack development based in Los Angeles, California. Originally coming from a Pre-Health background, I later realized that programming is my true passion. My goal with all of my projects is to design and code a simple, beautiful user experience with a priority for accesibility. With a strong grounding in both front and back end development, I am currently focusing on development with React and Node/Express.</p>
                 </div>
                 <div className="about-img-content">
                     <img className="profile-img" src={Profile} alt="profile"></img>
