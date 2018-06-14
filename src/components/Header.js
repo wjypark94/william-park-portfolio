@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Fade from 'react-reveal/Fade';
 import '../componentStyles/Header.css';
 
+
 class Header extends Component {
     render(){
         return(

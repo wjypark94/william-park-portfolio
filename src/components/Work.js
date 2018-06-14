@@ -7,6 +7,7 @@ import Desktop1 from '../images/desktop-fridgeful.png';
 import Desktop2 from '../images/desktop-brewtrackr.png';
 import Desktop3 from '../images/desktop-trekcheck.png';
 import Fade from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse';
 
 class Work extends Component{
 
@@ -27,7 +28,7 @@ class Work extends Component{
                     </div>
                 </Fade>
 
-                <Fade>
+                <Pulse>
                     <div className="project-content">
                         <div className="project-image-content">
                             <img className="project-img" onClick={() => {window.location.href = "https://fridgeful.netlify.com"}} src={Desktop1} alt="fridgeful"/>
@@ -50,7 +51,7 @@ class Work extends Component{
                         </div>
                         <hr className="hr-description"></hr>
                     </div>
-                </Fade>
+                </Pulse>
 
                 <Fade>
                     <div className="app-title">
@@ -61,7 +62,7 @@ class Work extends Component{
                         <hr className="hr-app"></hr>
                     </div>
                 </Fade>
-                <Fade>
+                <Pulse>
                     <div className="project-content">
                         <div className="project-image-content">
                             <img className="project-img" onClick={()=> {window.location.href="https://brewtrackr.herokuapp.com"}}src={Desktop2} alt="brewtrackr"/>
@@ -83,7 +84,7 @@ class Work extends Component{
                         </div>
                         <hr className="hr-description"></hr>
                     </div>
-                </Fade>
+                </Pulse>
 
                 <Fade>
                     <div className="app-title">
@@ -95,7 +96,7 @@ class Work extends Component{
                     </div>
                 </Fade>
 
-                <Fade>
+                <Pulse>
                     <div className="project-content">
                         <div className="project-image-content">
                             <img className="project-img" onClick={()=>{window.location.href="https://wjypark94.github.io/trek-check/"}}src={Desktop3} alt="trekcheck"/>
@@ -117,7 +118,7 @@ class Work extends Component{
                         </div>
                         <hr className="hr-description"></hr>
                     </div>
-                </Fade>
+                </Pulse>
             </div>
         )
     }
