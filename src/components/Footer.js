@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import '../componentStyles/Footer.css';
+import Fade from 'react-reveal/Fade';
 
 class Footer extends Component{
     render(){
         return(
             <div className="footer">
+                <Fade>
                 <div className="footer-links">
                     <a href="mailto:wjypark94@gmail.com">
                         <i className="icon fa fa-envelope"></i>
@@ -21,6 +23,7 @@ class Footer extends Component{
                     <i className="copyright-icon fa fa-copyright"></i>
                     2018 William Park 
                 </p>
+                </Fade>
             </div>
         )
     }

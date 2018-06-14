@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 //import EmailIcon from '../images/email-icon.png';
 import '../componentStyles/NavBar.css';
 import Scroll from 'react-scroll';
+import Fade from 'react-reveal/Fade';
 
 class NavBar extends Component {
 
@@ -14,6 +15,7 @@ class NavBar extends Component {
         let Link = Scroll.Link;
         return(
             <section className="Nav">
+            <Fade top>
             <div className="header-nav">
                 <nav className="nav-menu">
                 <Link to="work"
@@ -41,6 +43,7 @@ class NavBar extends Component {
 
          
             </div>
+            </Fade>
             </section>
         )
     }

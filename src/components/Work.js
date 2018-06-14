@@ -6,14 +6,17 @@ import iPhone3 from '../images/iphone-trekcheck.png';
 import Desktop1 from '../images/desktop-fridgeful.png';
 import Desktop2 from '../images/desktop-brewtrackr.png';
 import Desktop3 from '../images/desktop-trekcheck.png';
+import Fade from 'react-reveal/Fade';
 
 class Work extends Component{
 
     render(){
         return(
             <div id="work" className="work-content">
+                <Fade left>
                 <h1 className="work-header">Recent Work</h1>
-                
+                </Fade>
+                <Fade>
                 <div className="app-title">
                     <h1>Fridgeful</h1>
                     <a href="https://fridgeful.netlify.com">
@@ -21,7 +24,8 @@ class Work extends Component{
                     </a>
                     <hr className="hr-app"></hr>
                 </div>
-                
+                </Fade>
+                <Fade>
                 <div className="project-content">
                     <div className="project-image-content">
                         <img className="project-img" onClick={() => {window.location.href = "https://fridgeful.netlify.com"}} src={Desktop1} alt="fridgeful"/>
@@ -44,8 +48,9 @@ class Work extends Component{
                     </div>
                     <hr className="hr-description"></hr>
                 </div>
+                </Fade>
 
-            
+                <Fade>
                 <div className="app-title">
                     <h1>BrewTrackr </h1>
                     <a href="https://brewtrackr.herokuapp.com">
@@ -53,7 +58,9 @@ class Work extends Component{
                     </a>
                     <hr className="hr-app"></hr>
                 </div>
-                <div className="project-content content-reverse">
+                </Fade>
+                <Fade>
+                <div className="project-content">
                     <div className="project-image-content">
                         <img className="project-img" onClick={()=> {window.location.href="https://brewtrackr.herokuapp.com"}}src={Desktop2} alt="brewtrackr"/>
                         <img className="iphone-img" src={iPhone2} alt="iphone"/>
@@ -74,7 +81,8 @@ class Work extends Component{
                     </div>
                     <hr className="hr-description"></hr>
                 </div>
-
+                </Fade>
+                <Fade>
                 <div className="app-title">
                     <h1>TrekCheck</h1>
                     <a href="https://wjypark94.github.io/trek-check/">
@@ -82,6 +90,8 @@ class Work extends Component{
                     </a>
                     <hr className="hr-app"></hr>
                 </div>
+                </Fade>
+                <Fade>
                 <div className="project-content">
                     <div className="project-image-content">
                         <img className="project-img" onClick={()=>{window.location.href="https://wjypark94.github.io/trek-check/"}}src={Desktop3} alt="trekcheck"/>
@@ -103,8 +113,9 @@ class Work extends Component{
                 </div>
                 <hr className="hr-description"></hr>
                 </div>
-
+                </Fade>
             </div>
+            
         )
     }
 }
