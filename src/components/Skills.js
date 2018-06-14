@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import '../componentStyles/Skills.css';
 import Fade from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse';
 
 class Skills extends Component{
     render(){
         return(
             <div className="skills-container">
-                <Fade left>
+                <Pulse>
+                <Fade>
                     <h3 className="tech-header"> Technical Skills </h3>
                     <div className="col-4 description">
                         <h3 className="skills-header"> Front End</h3>
@@ -50,6 +52,7 @@ class Skills extends Component{
                     </div>
                     <hr className="hr-skills"></hr>
                 </Fade>
+                </Pulse>
             </div>
         )
     }

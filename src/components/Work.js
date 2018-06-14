@@ -28,6 +28,7 @@ class Work extends Component{
                     </div>
                 </Fade>
 
+                <Fade>
                 <Pulse>
                     <div className="project-content">
                         <div className="project-image-content">
@@ -52,6 +53,7 @@ class Work extends Component{
                         <hr className="hr-description"></hr>
                     </div>
                 </Pulse>
+                </Fade>
 
                 <Fade>
                     <div className="app-title">
@@ -62,6 +64,8 @@ class Work extends Component{
                         <hr className="hr-app"></hr>
                     </div>
                 </Fade>
+
+                <Fade>
                 <Pulse>
                     <div className="project-content">
                         <div className="project-image-content">
@@ -85,6 +89,7 @@ class Work extends Component{
                         <hr className="hr-description"></hr>
                     </div>
                 </Pulse>
+                </Fade>
 
                 <Fade>
                     <div className="app-title">
@@ -95,7 +100,8 @@ class Work extends Component{
                         <hr className="hr-app"></hr>
                     </div>
                 </Fade>
-
+                
+                <Fade>
                 <Pulse>
                     <div className="project-content">
                         <div className="project-image-content">
@@ -119,6 +125,7 @@ class Work extends Component{
                         <hr className="hr-description"></hr>
                     </div>
                 </Pulse>
+                </Fade>
             </div>
         )
     }
