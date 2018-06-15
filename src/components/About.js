@@ -2,9 +2,12 @@ import React, {Component} from 'react';
 import '../componentStyles/About.css';
 import Profile from '../images/profile-picture.jpeg';
 import Fade from 'react-reveal/Fade';
+import Scroll from 'react-scroll';
 
 class About extends Component {
+
     render(){
+        let Link = Scroll.Link;
         return(
             <div className="about-container">
                 <div id="about" className="about">
@@ -22,8 +25,17 @@ class About extends Component {
                         </div>
                     </Fade>
                 </div>
+                <div className="about-wrapper">
+                    <Fade bottom>
+                        <Link to="skills" offset={5} spy={true} smooth={true} duration={700}>
+                            <i className="fa fa-chevron-down smooth-container" aria-hidden="true" ></i>
+                        </Link>
+                    </Fade>
+                </div>
+              
                 <hr className="hr-about"></hr>
             </div>
+            
         )
     }
 }

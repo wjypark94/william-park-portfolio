@@ -38,7 +38,7 @@ class Work extends Component{
                     </div>
         
                     <div className="app-description">
-                        <h5>Helping users decrease the amount of food waste in the world, Fridgeful allows users to search recipes based on the ingredients in their fridge. Users are able to write comments and save recipes into their own personal database.</h5>
+                        <h5 className="app-details">Helping users decrease the amount of food waste in the world, Fridgeful allows users to search recipes based on the ingredients in their fridge. Users are able to write comments and save recipes into their own personal database.</h5>
                         <div className="app-buttons">
                             <a href="https://fridgeful.netlify.com">
                                 <button type="button" className="live-button">LIVE DEMO</button> 
@@ -74,7 +74,7 @@ class Work extends Component{
                         </div>
                     </div>
                     <div className="app-description">
-                        <h5>BrewTrackr allows users to search for coffee or breweries in any city. Users are able to write their own reviews and save their search results into their own list. Keep track of all your favorite coffee and breweries with BrewTrackr.</h5>
+                        <h5 className="app-details">BrewTrackr allows users to search for coffee or breweries in any city. Users are able to write their own reviews and save their search results into their own list. Keep track of all your favorite coffee and breweries with BrewTrackr.</h5>
                         <div className="app-buttons">
                             <a href="https://brewtrackr.herokuapp.com">
                                 <button className="live-button">LIVE DEMO </button>
@@ -110,7 +110,7 @@ class Work extends Component{
                         </div>
                     </div>
                     <div className="app-description">
-                        <h5>TrekCheck is a responsive web application that allows users to look up both hiking and weather data in a specified location with one quick search. Check the current weather and find the best hiking trails nearby with TrekCheck.</h5>
+                        <h5 className="app-details">TrekCheck is a responsive web application that allows users to look up both hiking and weather data in a specified location with one quick search. Check the current weather and find the best hiking trails nearby with TrekCheck.</h5>
                         <div className="app-buttons">
                             <a href="https://wjypark94.github.io/trek-check/">
                                 <button className="live-button">LIVE DEMO</button>

@@ -7,7 +7,7 @@
 
 
 .iphone-img{
-    width: 15%;
+    width: 13%;
     display: inline-block;
 }
 
@@ -27,7 +27,9 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0 auto;
 
 }
@@ -51,18 +53,19 @@
 }
 
 .app-description{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-top: 15px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-
 }
 
 .app-title{
     font-size: 40px;
     font-family: 'Freight Display Pro';
     padding-bottom: 10px;
+    margin-top: -40px;
 }
+
 
 .hr-description{
     width: 50%;
@@ -75,24 +78,24 @@
 }
 
 .code-button{
-    border: solid 2px #ffaa97;
+    border: solid 2px #595959;
     border-radius: 3px;
     color: rgba(80, 75, 75, 0.986);
     background-color: #edededbd;
     font-size: 1rem;
     padding: 5px 20px;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .live-button{
-    border: solid 2px #ffaa97;
+    border: solid 2px #595959;
     border-radius: 3px;
     color: rgba(80, 75, 75, 0.986);
     background-color: #edededbd;
     margin-right: 10px;
     font-size: 1rem;
     padding: 5px 20px;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .code-button:hover{
@@ -121,7 +124,7 @@ a{
 }
 
 .project-img{
-    max-width: 45%;
+    max-width: 40%;
     margin: 0 auto;
     padding-right: 10px;
 }
@@ -163,3 +166,12 @@ a{
         display: inline-block;
     }
 }
+
+
+@media screen and (min-width: 730px){
+    .app-details{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+

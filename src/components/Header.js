@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import Fade from 'react-reveal/Fade';
 import '../componentStyles/Header.css';
-
+import Scroll from 'react-scroll';
 
 class Header extends Component {
+
     render(){
+        let Link = Scroll.Link;
         return(
             <div className="header-container">
                 <div className="header">
@@ -31,7 +33,9 @@ class Header extends Component {
                 </div>
                 <div className="arrow-wrapper">
                     <Fade bottom>
-                        <i className="fa fa-chevron-down smooth-container" aria-hidden="true"></i>
+                        <Link to="about" offset={-40} spy={true} smooth={true} duration={700}>
+                            <i className="fa fa-chevron-down smooth-container" aria-hidden="true" ></i>
+                        </Link>
                     </Fade>
                 </div>
             </div>

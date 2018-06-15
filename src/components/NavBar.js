@@ -1,44 +1,56 @@
 import React, {Component} from 'react';
-//import GithubIcon from '../images/github-icon.png';
-//import LinkedinIcon from '../images/linkedin-icon.png';
-//import EmailIcon from '../images/email-icon.png';
+
 import '../componentStyles/NavBar.css';
 import Scroll from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
 class NavBar extends Component {
 
-
-    handleToggle = () => this.setState({open: !this.state.open})
-
     render(){
         let Link = Scroll.Link;
         return(
             <section className="Nav">
             <Fade top>
+            <div className="nav-name">
+                <a onClick={()=> window.location="/"} className="home-name"> WP </a>
+            </div>
+            </Fade>
+            <Fade top>
             <div className="header-nav">
                 <nav className="nav-menu">
-                <Link to="work"
-                            offset={-100}
+                    <Link to="about"
+                        offset={-40}
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                        className="nav-link">
+                        About
+                    </Link>
+                    <Link to="skills"
+                        offset={10}
+                        spy={true}
+                        smooth={true}
+                        duration={700}
+                        className="nav-link">
+                        Skills
+                    </Link>
+                    <Link to="work"
+                            offset={20}
                             spy={true}
                             smooth={true}
-                            duration={700}>
+                            duration={700}
+                            className="nav-link">
                             Work 
-                        </Link>
-                        <Link to="about"
-                            offset={-100}
+                    </Link>
+                    
+                    <Link to="contact"
+                            offset={-80}
                             spy={true}
                             smooth={true}
-                            duration={700}>
-                            About
-                        </Link>
-                        <Link to="contact"
-                            offset={-100}
-                            spy={true}
-                            smooth={true}
-                            duration={700}>
+                            duration={700}
+                            className="nav-link">
                             Contact
-                        </Link>
+                    </Link>
                 </nav>
 
          

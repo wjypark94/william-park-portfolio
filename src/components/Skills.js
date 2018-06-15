@@ -2,11 +2,14 @@ import React, {Component} from 'react';
 import '../componentStyles/Skills.css';
 import Fade from 'react-reveal/Fade';
 import Pulse from 'react-reveal/Pulse';
+import Scroll from 'react-scroll';
 
 class Skills extends Component{
+
     render(){
+        let Link = Scroll.Link;
         return(
-            <div className="skills-container">
+            <div id="skills" className="skills-container">
                 <Pulse>
                 <Fade>
                     <h3 className="tech-header"> Technical Skills </h3>
@@ -49,6 +52,13 @@ class Skills extends Component{
                             <li> Git </li>
                             <li> GitHub </li>
                         </ul>
+                    </div>
+                    <div className="skills-wrapper">
+                        <Fade bottom>
+                            <Link to="work" offset={20} spy={true} smooth={true} duration={700}>
+                                <i className="fa fa-chevron-down smooth-container" aria-hidden="true" ></i>
+                            </Link>
+                        </Fade>
                     </div>
                     <hr className="hr-skills"></hr>
                 </Fade>

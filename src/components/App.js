@@ -17,7 +17,7 @@ class App extends Component {
         <section className="landing-background">
           <ParticlesEffect/>
           <Header/>
-          </section>
+        </section>
         <section className="main-body">
           <About/>
           <Skills/>
