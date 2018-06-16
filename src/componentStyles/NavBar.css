@@ -69,10 +69,7 @@ a {
 
   .nav-name:hover{
       cursor: pointer;
-      -webkit-stroke-width: 5.3px;
-      -webkit-stroke-color: #FFFFFF;
-      -webkit-fill-color: #FFFFFF;
-      text-shadow: 1px 0px 20px white;
+      color: #FEFEFE;
   }
 
  .nav-link:hover{
@@ -82,3 +79,43 @@ a {
       -webkit-fill-color: #FFFFFF;
       text-shadow: 1px 0px 20px white;
  }
+
+  @media screen and (max-width: 393px){
+    .header-nav{
+        display: inline-block;
+        align-items: center;
+        padding-left: 0px;
+        position: relative;
+        justify-content: space-between;
+        margin: auto;
+        margin-right: 2000px;
+      }
+      
+}
+
+@media screen and (min-width: 0px){
+    .header-nav{
+        display: inline-block;
+        align-items: center;
+        padding-left: 0px;
+        position: relative;
+        justify-content: space-between;
+        margin: auto;
+        margin-right: 2000px;
+      }
+      
+}
+
+
+  @media screen and (min-width: 393px){
+    .header-nav{
+        display: inline-block;
+        align-items: center;
+        padding-left: 90px;
+        position: relative;
+        justify-content: space-between;
+        margin: auto;
+        margin-right: 50px;
+      }
+      
+}
