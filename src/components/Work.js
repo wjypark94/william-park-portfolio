@@ -122,7 +122,7 @@ class Work extends Component{
                             </a>
                         </div>
                         <div className="project-description-content">
-                            <h5>React · Redux · JavaScript <br/> ParticlesJS · HTML · CSS · Netlify </h5>
+                            <h5>React · Redux · JavaScript· HTML · CSS <br/> Enzyme · Jest · ParticlesJS · Netlify </h5>
                         </div>
                         <hr className="hr-description"></hr>
                     </div>
