@@ -112,7 +112,7 @@ class Work extends Component{
                         </div>
                     </div>
                     <div className="app-description">
-                        <h5 className="app-details">Built with React and Redux, Hot or Cold is an interactive game that allows users to attempt to guess a randomly generated number. </h5>
+                        <h5 className="app-details">Built with React and Redux, Hot or Cold is an interactive and simple number guessing game. The app allows users to attempt to guess a randomly generated number with cold or hot hints throughout the game.</h5>
                         <div className="app-buttons">
                             <a href="https://hotcold.netlify.com">
                                 <button className="live-button">LIVE DEMO</button>
