@@ -3,9 +3,11 @@ import '../componentStyles/Work.css';
 import iPhone1 from '../images/iphone-fridgeful.png';
 import iPhone2 from '../images/iphone-brewtrackr.png';
 import iPhone3 from '../images/iphone-trekcheck.png';
+import iPhone4 from '../images/iphone-hotcold.png';
 import Desktop1 from '../images/desktop-fridgeful.png';
 import Desktop2 from '../images/desktop-brewtrackr.png';
 import Desktop3 from '../images/desktop-trekcheck.png';
+import Desktop4 from '../images/desktop-hotcold.png';
 import Fade from 'react-reveal/Fade';
 import Pulse from 'react-reveal/Pulse';
 
@@ -85,6 +87,42 @@ class Work extends Component{
                         </div>
                         <div className="project-description-content">
                             <h5>JavaScript · jQuery · HTML · CSS · Node.js <br/> Express · Mongo DB · Foursquare API · Travis CI · Heroku</h5>
+                        </div>
+                        <hr className="hr-description"></hr>
+                    </div>
+                </Pulse>
+                </Fade>
+
+                <Fade>
+                    <div className="app-title">
+                        <h1>Hot N Cold</h1>
+                        <a href="https://hotcold.netlify.com">
+                            <h5 className="app-link">hotcold.netlify.com</h5>
+                        </a>
+                        <hr className="hr-app"></hr>
+                    </div>
+                </Fade>
+                
+                <Fade>
+                <Pulse>
+                    <div className="project-content">
+                        <div className="project-image-content">
+                            <img className="project-img" onClick={()=>{window.location.href="https://hotcold.netlify.com"}} src={Desktop4} alt="hotcold"/>
+                            <img className="iphone-img" src={iPhone4} alt="iphone"/>
+                        </div>
+                    </div>
+                    <div className="app-description">
+                        <h5 className="app-details">Built with React and Redux, Hot or Cold is an interactive game that allows users to attempt to guess a randomly generated number. </h5>
+                        <div className="app-buttons">
+                            <a href="https://hotcold.netlify.com">
+                                <button className="live-button">LIVE DEMO</button>
+                            </a>
+                            <a href="https://github.com/wjypark94/hot-cold">
+                                <button className="code-button">CODE</button>
+                            </a>
+                        </div>
+                        <div className="project-description-content">
+                            <h5>React · Redux · JavaScript <br/> ParticlesJS · HTML · CSS · Netlify </h5>
                         </div>
                         <hr className="hr-description"></hr>
                     </div>
