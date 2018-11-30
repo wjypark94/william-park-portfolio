@@ -12,9 +12,10 @@ class Header extends Component {
                 <div className="header">
                     <Fade bottom>
                         <h2 className="site-title">Will Park</h2>
+                        <hr className="hr-header"/>
                     </Fade>
                     <Fade left>
-                        <h1 className="site-description">Full Stack Web Developer</h1>
+                        <h1 className="site-description">Full Stack Developer</h1>
                     </Fade>
                     <Fade left>
                         <div className="header-links">

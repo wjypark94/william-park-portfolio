@@ -9,7 +9,7 @@ class ParticlesEffect extends Component {
           params={{
             particles: {
               number: {
-                value: 40,
+                value: 17,
                 density: {
                   enable: true,
                   value_area: 900

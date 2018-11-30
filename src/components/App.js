@@ -13,12 +13,13 @@ class App extends Component {
   render() {
     return (
       <section className="App">
-        <NavBar />
+
         <section className="landing-background">
           <ParticlesEffect />
           <Header />
         </section>
         <section className="main-body">
+          <NavBar/>
           <About />
           <Skills />
           <Work />

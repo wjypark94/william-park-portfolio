@@ -1,12 +1,15 @@
 .site-title{
     font-family: 'Roboto Slab';
-    font-size: 60px;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
   }
   
   .site-description{
     font-family: 'Montserrat';
     font-size: 20px;
-    margin-top: -30px;
+    margin-top: 0px;
+    text-transform: uppercase;
   }
   
   .header-links{
@@ -24,8 +27,8 @@
       border: 2px solid white;
       border-radius: 100%;
       margin-right: 7px; 
-    line-height: 38px;
-    color: white;
+      line-height: 38px;
+      color: white;
     
   }
   
@@ -56,3 +59,7 @@
   }
   
   
+  .hr-header{
+    width: 40%;
+    margin-bottom: 20px;
+  }

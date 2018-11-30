@@ -4,9 +4,10 @@
     height: 50px;
     top: 0;
     z-index: 10;
-    position: fixed;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.20);
     background-color: black;
+    position: sticky;
+
 }
 
 /*.social-icon img {
@@ -80,18 +81,6 @@ a {
       text-shadow: 1px 0px 20px white;
  }
 
-  @media screen and (max-width: 393px){
-    .header-nav{
-        display: inline-block;
-        align-items: center;
-        padding-left: 0px;
-        position: relative;
-        justify-content: space-between;
-        margin: auto;
-        margin-right: 2000px;
-      }
-      
-}
 
 @media screen and (min-width: 0px){
     .header-nav{
@@ -102,6 +91,7 @@ a {
         justify-content: space-between;
         margin: auto;
         margin-right: 2000px;
+
       }
       
 }
