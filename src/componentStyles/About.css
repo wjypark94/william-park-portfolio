@@ -26,7 +26,7 @@
 
 
 .profile-img{
-    height: 250px;
+    height: 300px;
     border-radius: 50%;
 
 }
@@ -67,7 +67,7 @@
 
 .about-wrapper{
     padding-top: -20px;
-    margin-top: -40px;
+    margin-top: -100px;
     font-size: 25px;
     padding-bottom: 25px;
     -moz-animation: pulse 1.3s infinite;
