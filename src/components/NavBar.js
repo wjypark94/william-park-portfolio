@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-
 import "../componentStyles/NavBar.css";
 import Scroll from "react-scroll";
 import Fade from "react-reveal/Fade";
+
 
 class NavBar extends Component {
   render() {
@@ -65,6 +65,7 @@ class NavBar extends Component {
           </div>
         </Fade>
       </section>
+
     );
   }
 }
